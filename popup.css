@@ -2,7 +2,8 @@
 *{
     font-family: Microsoft JhengHei;
 }
-body{ margin: 0; padding: 0; }
+body{ margin: 0; padding: 0; width: 607px;}
+
 :root {
     --cardheight: 30px
   }
@@ -12,6 +13,7 @@ body{ margin: 0; padding: 0; }
     height:  var(--cardheight);
     width: 200px;
 }
+
 .CuteMe a{
     color: rgb(255, 255, 255);
     font-size: 16px;
@@ -20,7 +22,25 @@ body{ margin: 0; padding: 0; }
     text-align:center;
     line-height: var(--cardheight);
 }
+
 .CuteMe:hover{
     box-shadow:0 4px 8px 0px rgba(0,0,0,0.2);
     background:grey;
+}
+
+.Squard{
+    border: 1px solid grey;
+    height: 400px;
+    width: 200px;
+}
+
+
+.Title{
+    background-color:white	;
+    height:  var(--cardheight);
+    width: 180px;
+    line-height: var(--cardheight);
+    font-size: 16px;
+    padding: 0px 10px 0px 10px;
+
 }
