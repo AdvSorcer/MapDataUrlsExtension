@@ -2,16 +2,32 @@
 *{
     font-family: Microsoft JhengHei;
 }
-body{ margin: 0; padding: 0; width: 607px;}
 
 :root {
-    --cardheight: 30px
+    --cardheight: 30px;
+    --cardwidth: 140px;
+    --titlePadding: var(--cardwidth) -20;
   }
+
+  body{ margin: 0; padding: 0; width: 568px;}
+
+  /* .div-relative{position:relative; color:rgb(87, 47, 47); border:1px solid #000; height: 0px; width: 0px;} 
+  .div-a{ position:absolute; left:30px; top:30px; background:#F00; height: 200px;width: 300px;transform: rotate(45deg); overflow: hidden;} 
+  .div-b{ position:absolute; left:50px; top:60px; background:#FF0; height: 200px;width: 200px;}  */
+
+#container{
+    background: ;
+    overflow: hidden;
+}
+
+.bannerP{
+    padding-left: 10px;
+}
 
 .CuteMe{
     background-color:#323336;
     height:  var(--cardheight);
-    width: 200px;
+    width: var(--cardwidth);
 }
 
 .CuteMe a{
@@ -28,17 +44,17 @@ body{ margin: 0; padding: 0; width: 607px;}
     background:grey;
 }
 
-.Squard{
+.CardGroup{
     border: 1px solid grey;
-    height: 400px;
-    width: 200px;
+    height: 270px;
+    width: var(--cardwidth);
 }
 
 
 .Title{
     background-color:white	;
     height:  var(--cardheight);
-    width: 180px;
+    width: var(--titlePadding);
     line-height: var(--cardheight);
     font-size: 16px;
     padding: 0px 10px 0px 10px;
