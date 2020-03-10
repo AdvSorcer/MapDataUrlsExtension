@@ -1,6 +1,6 @@
 {
   "name": "TW_MapUrls",
-  "version": "1.1",
+  "version": "1.2",
   "description": "為你節省每次找尋圖資的麻煩 !",
   "permissions": ["https://maps.nlsc.gov.tw/","https://easymap.land.moi.gov.tw/R02/Index",
   "http://nsp.tcd.gov.tw/ngis/","https://luz.tcd.gov.tw/WEB/default.aspx","https://www.tgos.tw/tgos/web/tgos_home.aspx",
